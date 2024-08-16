@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.3">
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/helpers/DatabaseHelper.kt">
+	<error line="16" column="7" severity="warning" message="Class &apos;DatabaseHelper&apos; with &apos;15&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="46" column="18" severity="warning" message="The caught exception is too generic. Prefer catching specific exceptions to the case that is currently handled." source="detekt.TooGenericExceptionCaught" />
+	<error line="47" column="13" severity="warning" message="RuntimeException is a too generic Exception. Prefer throwing specific exceptions that indicate a specific error case." source="detekt.TooGenericExceptionThrown" />
+	<error line="91" column="13" severity="warning" message="Exception is a too generic Exception. Prefer throwing specific exceptions that indicate a specific error case." source="detekt.TooGenericExceptionThrown" />
+	<error line="165" column="13" severity="warning" message="Exception is a too generic Exception. Prefer throwing specific exceptions that indicate a specific error case." source="detekt.TooGenericExceptionThrown" />
+	<error line="203" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\helpers\DatabaseHelper.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/LoginActivity.kt">
+	<error line="38" column="7" severity="warning" message="Class &apos;LoginActivity&apos; with &apos;11&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+	<error line="204" column="62" severity="warning" message="This empty block of code can be removed." source="detekt.EmptyFunctionBlock" />
+	<error line="250" column="25" severity="warning" message="The caught exception is too generic. Prefer catching specific exceptions to the case that is currently handled." source="detekt.TooGenericExceptionCaught" />
+	<error line="250" column="25" severity="warning" message="The caught exception is swallowed. The original exception could be lost." source="detekt.SwallowedException" />
+	<error line="230" column="22" severity="warning" message="Function doInBackground has 4 return statements which exceeds the limit of 2." source="detekt.ReturnCount" />
+	<error line="20" column="1" severity="warning" message="android.content.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="31" column="1" severity="warning" message="kotlinx.android.synthetic.main.activity_login.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="228" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="220" column="13" severity="warning" message="ADDRESS can be a `const val`." source="detekt.MayBeConst" />
+	<error line="221" column="13" severity="warning" message="IS_PRIMARY can be a `const val`." source="detekt.MayBeConst" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/EditNoteActivity.kt">
+	<error line="67" column="20" severity="warning" message="The caught exception is too generic. Prefer catching specific exceptions to the case that is currently handled." source="detekt.TooGenericExceptionCaught" />
+	<error line="112" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\EditNoteActivity.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/AccountProvider.kt">
+	<error line="16" column="17" severity="warning" message="Private variable names should match the pattern: (_)?[a-z][A-Za-z0-9]*" source="detekt.VariableNaming" />
+	<error line="17" column="17" severity="warning" message="Private variable names should match the pattern: (_)?[a-z][A-Za-z0-9]*" source="detekt.VariableNaming" />
+	<error line="93" column="21" severity="warning" message="Private property `DATABASE_NAME` is unused." source="detekt.UnusedPrivateProperty" />
+	<error line="89" column="21" severity="warning" message="AUTHORITY can be a `const val`." source="detekt.MayBeConst" />
+	<error line="90" column="21" severity="warning" message="ACCOUNTS_TABLE can be a `const val`." source="detekt.MayBeConst" />
+	<error line="93" column="21" severity="warning" message="DATABASE_NAME can be a `const val`." source="detekt.MayBeConst" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/NotesProvider.kt">
+	<error line="15" column="17" severity="warning" message="Private variable names should match the pattern: (_)?[a-z][A-Za-z0-9]*" source="detekt.VariableNaming" />
+	<error line="16" column="17" severity="warning" message="Private variable names should match the pattern: (_)?[a-z][A-Za-z0-9]*" source="detekt.VariableNaming" />
+	<error line="90" column="21" severity="warning" message="Private property `DATABASE_NAME` is unused." source="detekt.UnusedPrivateProperty" />
+	<error line="86" column="21" severity="warning" message="AUTHORITY can be a `const val`." source="detekt.MayBeConst" />
+	<error line="87" column="21" severity="warning" message="NOTES_TABLE can be a `const val`." source="detekt.MayBeConst" />
+	<error line="90" column="21" severity="warning" message="DATABASE_NAME can be a `const val`." source="detekt.MayBeConst" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/ServerInfoActivity.kt">
+	<error line="14" column="9" severity="warning" message="Variable names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.VariableNaming" />
+	<error line="15" column="9" severity="warning" message="Variable names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.VariableNaming" />
+	<error line="71" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\ServerInfoActivity.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="5" column="1" severity="warning" message="android.support.v7.app.AlertDialog.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/androidTest/java/com/cx/goatlin/ExampleInstrumentedTest.kt">
+	<error line="9" column="1" severity="warning" message="org.junit.Assert.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/api/model/Account.kt">
+	<error line="3" column="79" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\api\model\Account.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/api/model/Note.kt">
+	<error line="3" column="79" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\api\model\Note.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/api/service/Client.kt">
+	<error line="44" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\api\service\Client.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="11" column="1" severity="warning" message="retrofit2.http.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/helpers/CryptoHelper.kt">
+	<error line="41" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\helpers\CryptoHelper.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="5" column="1" severity="warning" message="The class CryptoHelper only contains utility functions. Consider defining it as an object." source="detekt.UtilityClassWithPublicConstructor" />
+	<error line="12" column="63" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="12" column="71" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="14" column="30" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="14" column="34" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="14" column="49" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="14" column="53" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="15" column="69" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="29" column="63" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="29" column="71" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="31" column="30" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="31" column="34" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="31" column="49" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="31" column="53" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="32" column="68" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/helpers/PreferenceHelper.kt">
+	<error line="22" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\helpers\PreferenceHelper.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/HomeActivity.kt">
+	<error line="119" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\HomeActivity.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="13" column="1" severity="warning" message="android.widget.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="14" column="1" severity="warning" message="kotlinx.android.synthetic.main.activity_home.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="112" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/models/Account.kt">
+	<error line="14" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\models\Account.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/models/Note.kt">
+	<error line="6" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\models\Note.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/main/java/com/cx/goatlin/SignupActivity.kt">
+	<error line="100" column="2" severity="warning" message="The file D:\SampleProjects\Kotlin\Goatlin-develop\packages\clients\android\app\src\main\java\com\cx\goatlin\SignupActivity.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="7" column="1" severity="warning" message="kotlinx.android.synthetic.main.activity_signup.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="59" column="21" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="69" column="21" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="D:/SampleProjects/Kotlin/Goatlin-develop/packages/clients/android/app/src/test/java/com/cx/goatlin/ExampleUnitTest.kt">
+	<error line="5" column="1" severity="warning" message="org.junit.Assert.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+</file>
+</checkstyle>
